@@ -162,7 +162,7 @@ body {
   box-shadow: 2px 2px 5px wheat;
 }
 /* mobile view */
-@media screen and (max-width: 768px) {
+@media screen and (max-width:1062px) {
   
   /*hover effect on buttons*/
   .hover-effect:hover {
