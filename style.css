@@ -27,9 +27,12 @@ body {
 
   gap: 30vw;
 }
+
 .section-no {
-  width: 25vw;
+  width: 27vw;
   height: 20vh;
+ position:absolute;
+ left:35%;
 }
 .logo {
   height: 8vw;
@@ -40,13 +43,14 @@ body {
 .text-overlay {
   position: absolute;
   top: 5%; /* Center vertically */
-  left: 49%; /* Center horizontally */
+  left: 45%; /* Center horizontally */
 
   color: #5f185a; /* Text color */
   font-size: 23px;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Make the text more readable */
   text-align: center;
+  padding:5px;
 }
 
 /* timer */
@@ -100,8 +104,9 @@ body {
   position: absolute;
   top: 35%;
   left: 18%;
-  width: 50vw;
-  font-size: 25px;
+  width: 60vw;
+  font-size: 20px;
+  padding: 10px;
 }
 .options {
   /* height: 30vh; */
@@ -179,11 +184,12 @@ body {
   .section-no {
     width: 60vw;
     height: 20vh;
+    left:20%;
   }
   .text-overlay {
     position: absolute;
     top: 6%; /* Center vertically */
-    left: 42%; /* Center horizontally */
+    left: 45%; /* Center horizontally */
 
     color: #5f185a; /* Text color */
     font-size: 18px;
